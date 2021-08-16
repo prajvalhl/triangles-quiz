@@ -9,7 +9,7 @@ export function Header() {
       <h1 className="brand-name">All About Triangles</h1>
       <div>
         <ul className="list nav-items">
-          <li className="li-inline">
+          <li className="li-inline li-nav">
             <button
               className="nav-btn"
               style={{ fontWeight: route === "isTriangle" && "bold" }}
@@ -18,7 +18,7 @@ export function Header() {
               is Triangle?
             </button>
           </li>
-          <li className="li-inline">
+          <li className="li-inline li-nav">
             <button
               className="nav-btn"
               style={{ fontWeight: route === "quiz" && "bold" }}
@@ -27,7 +27,7 @@ export function Header() {
               Quiz
             </button>
           </li>
-          <li className="li-inline">
+          <li className="li-inline li-nav">
             <button
               className="nav-btn"
               style={{ fontWeight: route === "hypotenuse" && "bold" }}
@@ -36,7 +36,7 @@ export function Header() {
               Hypotenuse
             </button>
           </li>
-          <li className="li-inline">
+          <li className="li-inline li-nav">
             <button
               className="nav-btn"
               style={{ fontWeight: route === "area" && "bold" }}

@@ -2,7 +2,7 @@ import React from "react";
 
 export function Footer() {
   return (
-    <div>
+    <div className="footer">
       <h2>Connect with me on</h2>
       <ul className="list">
         <li className="li-inline">
