@@ -58,7 +58,7 @@ button {
 }
 
 /* isTriangle component*/
-.angle-input {
+.div-input {
   margin-top: 2rem;
 }
 
@@ -109,6 +109,11 @@ label {
   }
 
   .isTriangle {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
+  .hypotenuse {
     max-width: 80%;
     margin: 0 auto;
   }

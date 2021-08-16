@@ -29,7 +29,7 @@ export function IsTriangle() {
         Fill the three angles below and we'll tell you if it makes a triangle or
         not.
       </p>
-      <div className="angle-input">
+      <div className="div-input">
         <label htmlFor="angle1">Angle 1</label>
         <br />
         <input
@@ -38,7 +38,7 @@ export function IsTriangle() {
           onChange={(e) => setAngle1(e.target.value)}
         />
       </div>
-      <div className="angle-input">
+      <div className="div-input">
         <label htmlFor="angle2">Angle 2</label>
         <br />
         <input
@@ -47,7 +47,7 @@ export function IsTriangle() {
           onChange={(e) => setAngle2(e.target.value)}
         />
       </div>
-      <div className="angle-input">
+      <div className="div-input">
         <label htmlFor="angle3">Angle 3</label>
         <br />
         <input
