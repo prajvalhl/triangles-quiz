@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
 body {
   margin: 0;
@@ -39,4 +39,16 @@ body {
 
 .nav-items {
   text-align: right;
+}
+
+.nav-btn {
+  background-color: var(--primary-color);
+  border: none;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.nav-btn:hover {
+  font-weight: bold;
 }
