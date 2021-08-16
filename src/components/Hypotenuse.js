@@ -10,7 +10,9 @@ export function Hypotenuse() {
   function handleClick() {
     if (base && height) {
       setFlag(false);
-      const hypotenuse = Math.sqrt(base * base + height * height);
+      const hypotenuse = Math.sqrt(
+        Number(base) * Number(base) + Number(height) * Number(height)
+      );
       setOutput(`Hypotenuse of your triangle is ${hypotenuse}`);
     } else {
       setFlag(true);

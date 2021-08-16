@@ -3,7 +3,7 @@ import { createContext, useContext, useState } from "react";
 const Nav = createContext();
 
 export function NavProvider({ children }) {
-  const [route, setRoute] = useState("hypotenuse");
+  const [route, setRoute] = useState("area");
   return <Nav.Provider value={{ route, setRoute }}>{children}</Nav.Provider>;
 }
 

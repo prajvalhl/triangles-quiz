@@ -118,6 +118,11 @@ label {
     margin: 0 auto;
   }
 
+  .area {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
   .nav-items {
     text-align: center;
   }
